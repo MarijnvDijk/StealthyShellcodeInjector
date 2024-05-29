@@ -139,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="check.c" />
+    <ClCompile Include="sb-detector.c" />
     <ClCompile Include="converter.c" />
     <ClCompile Include="custom-functions.c" />
     <ClCompile Include="dsh.c" />

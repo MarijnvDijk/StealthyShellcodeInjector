@@ -27,7 +27,7 @@
     <ClCompile Include="converter.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="check.c">
+    <ClCompile Include="sb-detector.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
