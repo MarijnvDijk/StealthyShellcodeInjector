@@ -11,15 +11,11 @@ Self Injector that uses the following:
 
 ## Project Structure
 - Source Code:
-  - main.c: Entry point of the program. Manages the injection process and calls various custom functions.
-  - sb-detector.c: Contains very basic functions for detecting a sandox.
-  - converter.c: Handles data conversion tasks.
-  - custom-functions.c: Contains custom implementations of various functions to avoid direct API calls.
-  - dsh.c: Contains `JenkinsOneAtATime32Bit`.
-
-- Project Files:
-  - IDR.vcxproj, IDR.vcxproj.filters, IDR.vcxproj.user: Visual Studio project files for building the injector.
-  - IDR.sln: Visual Studio solution file.
+  - `main.c`: Entry point of the program. Manages the injection process and calls various mapped functions.
+  - `sb-detector.c`: Contains very basic functions for detecting a sandox.
+  - `converter.c`: Handles data conversion tasks.
+  - `custom-functions.c`: Contains custom implementations of various functions to avoid direct API calls.
+  - `dsh.c`: Contains `JenkinsOneAtATime32Bit`.
 
 ## Usage
 - Building the Project:
