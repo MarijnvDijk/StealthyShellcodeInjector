@@ -1,6 +1,6 @@
 # StealthyShellcodeInjector
 ## Overview
-This project implements a stealthy shellcode injector designed to evade detection and perform covert operations within a Windows environment. The injector utilizes several advanced techniques to ensure its stealthiness and effectiveness.
+This project implements a stealthy shellcode injector designed to evade detection within a Windows environment. The injector utilizes several advanced techniques to ensure its stealthiness and effectiveness.
 
 ## Features
 Self Injector that uses the following:
